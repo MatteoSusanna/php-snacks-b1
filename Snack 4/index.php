@@ -8,7 +8,6 @@
         }else{
             $numeriCasuali[] = $numeroGenerato;
         }
-
     }
     
     var_dump($numeriCasuali);
