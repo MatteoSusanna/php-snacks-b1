@@ -19,6 +19,7 @@
                         ],
                     ];
 
+
     for($i = 0; $i < count($classeArray); $i++){
         $alunni = $classeArray[$i];
 
@@ -30,9 +31,20 @@
         
         $media = $somma / count($voti);
 
-
-        echo $alunni['alunno'] . '|La media è|' . floor($media) . '<br>';
-        
+        echo "<h3>" . $alunni['alunno'] . "</h3>" . '| La media è |' . "<h3>" .floor($media) . "</h3>" . '<br>';
     }
-
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Media Alunni</title>
+</head>
+<body>
+    
+</body>
+</html>
